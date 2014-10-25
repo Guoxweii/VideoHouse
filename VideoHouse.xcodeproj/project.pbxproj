@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9EB6DA124757DB8C00D53F92 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3958F6529D30F4D3003F1C0F /* libPods.a */; };
+		BC8089CD19FB811B005C4479 /* VideosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8089CB19FB811B005C4479 /* VideosController.swift */; };
+		BC8089CE19FB811B005C4479 /* VideosController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8089CC19FB811B005C4479 /* VideosController.xib */; };
+		BC8089D519FB818C005C4479 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8089D319FB818C005C4479 /* VideoCell.swift */; };
+		BC8089D619FB818C005C4479 /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8089D419FB818C005C4479 /* VideoCell.xib */; };
+		BC8089DA19FB8A30005C4479 /* VideoNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8089D819FB8A30005C4479 /* VideoNaviController.swift */; };
+		BC8089DB19FB8A30005C4479 /* VideoNaviController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8089D919FB8A30005C4479 /* VideoNaviController.xib */; };
+		BC8089DD19FB8EDE005C4479 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8089DC19FB8EDE005C4479 /* Video.swift */; };
+		BC8089E819FB998C005C4479 /* BroadcastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8089E619FB998C005C4479 /* BroadcastController.swift */; };
+		BC8089E919FB998C005C4479 /* BroadcastController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8089E719FB998C005C4479 /* BroadcastController.xib */; };
 		BCACC96519FB358F004E98D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACC96419FB358F004E98D1 /* AppDelegate.swift */; };
 		BCACC96C19FB358F004E98D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCACC96B19FB358F004E98D1 /* Images.xcassets */; };
 		BCACC97B19FB358F004E98D1 /* VideoHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACC97A19FB358F004E98D1 /* VideoHouseTests.swift */; };
@@ -24,6 +34,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CBD1974547ACC456ECF69DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3958F6529D30F4D3003F1C0F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57DF8222E065740BEB78D1B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BC8089CB19FB811B005C4479 /* VideosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosController.swift; sourceTree = "<group>"; };
+		BC8089CC19FB811B005C4479 /* VideosController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideosController.xib; sourceTree = "<group>"; };
+		BC8089D319FB818C005C4479 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		BC8089D419FB818C005C4479 /* VideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
+		BC8089D819FB8A30005C4479 /* VideoNaviController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoNaviController.swift; sourceTree = "<group>"; };
+		BC8089D919FB8A30005C4479 /* VideoNaviController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoNaviController.xib; sourceTree = "<group>"; };
+		BC8089DC19FB8EDE005C4479 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		BC8089E619FB998C005C4479 /* BroadcastController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BroadcastController.swift; sourceTree = "<group>"; };
+		BC8089E719FB998C005C4479 /* BroadcastController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BroadcastController.xib; sourceTree = "<group>"; };
 		BCACC95F19FB358F004E98D1 /* VideoHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCACC96319FB358F004E98D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCACC96419FB358F004E98D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +54,7 @@
 		BCACC97919FB358F004E98D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCACC97A19FB358F004E98D1 /* VideoHouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoHouseTests.swift; sourceTree = "<group>"; };
 		BCACC98919FB46E1004E98D1 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		BCE7F52119FBC5E200C2FB8F /* Object-C-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Object-C-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EB6DA124757DB8C00D53F92 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,12 +76,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01D350B75270076BE2742C65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B57DF8222E065740BEB78D1B /* Pods.debug.xcconfig */,
+				1CBD1974547ACC456ECF69DE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC8089CF19FB8122005C4479 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				BC8089DC19FB8EDE005C4479 /* Video.swift */,
+				BCE7F52119FBC5E200C2FB8F /* Object-C-Header.h */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		BC8089D119FB8136005C4479 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				BC8089D219FB813C005C4479 /* cells */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		BC8089D219FB813C005C4479 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				BC8089D319FB818C005C4479 /* VideoCell.swift */,
+				BC8089D419FB818C005C4479 /* VideoCell.xib */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		BC8089D719FB89DE005C4479 /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				BC8089CB19FB811B005C4479 /* VideosController.swift */,
+				BC8089CC19FB811B005C4479 /* VideosController.xib */,
+				BC8089D819FB8A30005C4479 /* VideoNaviController.swift */,
+				BC8089D919FB8A30005C4479 /* VideoNaviController.xib */,
+				BC8089E619FB998C005C4479 /* BroadcastController.swift */,
+				BC8089E719FB998C005C4479 /* BroadcastController.xib */,
+			);
+			name = videos;
+			sourceTree = "<group>";
+		};
 		BCACC95619FB358F004E98D1 = {
 			isa = PBXGroup;
 			children = (
 				BCACC96119FB358F004E98D1 /* VideoHouse */,
 				BCACC97719FB358F004E98D1 /* VideoHouseTests */,
 				BCACC96019FB358F004E98D1 /* Products */,
+				01D350B75270076BE2742C65 /* Pods */,
+				F2548E9A472FCCC3F5984D18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +147,8 @@
 		BCACC96119FB358F004E98D1 /* VideoHouse */ = {
 			isa = PBXGroup;
 			children = (
+				BC8089D119FB8136005C4479 /* views */,
+				BC8089CF19FB8122005C4479 /* models */,
 				BCACC98819FB466C004E98D1 /* controllers */,
 				BCACC96419FB358F004E98D1 /* AppDelegate.swift */,
 				BCACC96B19FB358F004E98D1 /* Images.xcassets */,
@@ -109,9 +185,18 @@
 		BCACC98819FB466C004E98D1 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BC8089D719FB89DE005C4479 /* videos */,
 				BCACC98919FB46E1004E98D1 /* MainController.swift */,
 			);
 			name = controllers;
+			sourceTree = "<group>";
+		};
+		F2548E9A472FCCC3F5984D18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3958F6529D30F4D3003F1C0F /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCACC97E19FB358F004E98D1 /* Build configuration list for PBXNativeTarget "VideoHouse" */;
 			buildPhases = (
+				44758DC327DD9A397D8E03CC /* Check Pods Manifest.lock */,
 				BCACC95B19FB358F004E98D1 /* Sources */,
 				BCACC95C19FB358F004E98D1 /* Frameworks */,
 				BCACC95D19FB358F004E98D1 /* Resources */,
+				3F98F823DDB590F6AEAB0C72 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,7 +282,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8089D619FB818C005C4479 /* VideoCell.xib in Resources */,
+				BC8089DB19FB8A30005C4479 /* VideoNaviController.xib in Resources */,
+				BC8089E919FB998C005C4479 /* BroadcastController.xib in Resources */,
 				BCACC96C19FB358F004E98D1 /* Images.xcassets in Resources */,
+				BC8089CE19FB811B005C4479 /* VideosController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,13 +299,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F98F823DDB590F6AEAB0C72 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44758DC327DD9A397D8E03CC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BCACC95B19FB358F004E98D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BCACC98B19FB46E1004E98D1 /* MainController.swift in Sources */,
+				BC8089DD19FB8EDE005C4479 /* Video.swift in Sources */,
+				BC8089D519FB818C005C4479 /* VideoCell.swift in Sources */,
 				BCACC96519FB358F004E98D1 /* AppDelegate.swift in Sources */,
+				BC8089CD19FB811B005C4479 /* VideosController.swift in Sources */,
+				BC8089E819FB998C005C4479 /* BroadcastController.swift in Sources */,
+				BC8089DA19FB8A30005C4479 /* VideoNaviController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +445,7 @@
 		};
 		BCACC97F19FB358F004E98D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57DF8222E065740BEB78D1B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -324,11 +454,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoHouse/Object-C-Header.H";
 			};
 			name = Debug;
 		};
 		BCACC98019FB358F004E98D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CBD1974547ACC456ECF69DE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -337,6 +469,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoHouse/Object-C-Header.H";
 			};
 			name = Release;
 		};
