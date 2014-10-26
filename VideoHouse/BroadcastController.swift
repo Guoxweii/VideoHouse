@@ -19,7 +19,6 @@ class BroadcastController: UIViewController,ALMoviePlayerControllerDelegate {
     }
     
     func initializePlayer() {
-        
         player = ALMoviePlayerController()
         player!.delegate = self
         
@@ -46,13 +45,21 @@ class BroadcastController: UIViewController,ALMoviePlayerControllerDelegate {
     func movieTimedOut() {
         println("time out")
     }
+
+    @IBAction func dissMissView(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    @IBAction func imageCapture(sender: AnyObject) {
+        var image = player!.view.screenshot()
+        
+        var screenshotCtr = ScreenshotController(nibName: "ScreenshotController", bundle: nil)
+        presentViewController(screenshotCtr, animated: true, completion: nil)
+        screenshotCtr.screenshotImage.image = image
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-    }
-    
-    @IBAction func `return`(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
     }
     
     override func viewWillAppear(animated: Bool) {

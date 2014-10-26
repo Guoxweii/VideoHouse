@@ -23,7 +23,12 @@
                     <items>
                         <barButtonItem image="Return" id="clK-EW-aS5" userLabel="return">
                             <connections>
-                                <action selector="return:" destination="-1" id="zlg-mG-q9s"/>
+                                <action selector="dissMissView:" destination="-1" id="2Jg-WX-mA6"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="截图" width="131" id="noO-5Q-PtI">
+                            <connections>
+                                <action selector="imageCapture:" destination="-1" id="eDB-YX-V0F"/>
                             </connections>
                         </barButtonItem>
                     </items>

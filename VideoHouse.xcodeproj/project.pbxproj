@@ -21,6 +21,10 @@
 		BCACC96C19FB358F004E98D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCACC96B19FB358F004E98D1 /* Images.xcassets */; };
 		BCACC97B19FB358F004E98D1 /* VideoHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACC97A19FB358F004E98D1 /* VideoHouseTests.swift */; };
 		BCACC98B19FB46E1004E98D1 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACC98919FB46E1004E98D1 /* MainController.swift */; };
+		BCB3BA3019FCB59300157BD7 /* UIView+Screenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BA2F19FCB59300157BD7 /* UIView+Screenshot.swift */; };
+		BCB3BA3319FCDC0500157BD7 /* ScreenshotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BA3119FCDC0500157BD7 /* ScreenshotController.swift */; };
+		BCB3BA3419FCDC0500157BD7 /* ScreenshotController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB3BA3219FCDC0500157BD7 /* ScreenshotController.xib */; };
+		BCB3BA3619FCE7AA00157BD7 /* Screenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BA3519FCE7AA00157BD7 /* Screenshot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		BCACC97919FB358F004E98D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCACC97A19FB358F004E98D1 /* VideoHouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoHouseTests.swift; sourceTree = "<group>"; };
 		BCACC98919FB46E1004E98D1 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		BCB3BA2F19FCB59300157BD7 /* UIView+Screenshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Screenshot.swift"; sourceTree = "<group>"; };
+		BCB3BA3119FCDC0500157BD7 /* ScreenshotController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenshotController.swift; sourceTree = "<group>"; };
+		BCB3BA3219FCDC0500157BD7 /* ScreenshotController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScreenshotController.xib; sourceTree = "<group>"; };
+		BCB3BA3519FCE7AA00157BD7 /* Screenshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screenshot.swift; sourceTree = "<group>"; };
 		BCE7F52119FBC5E200C2FB8F /* Object-C-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Object-C-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +98,7 @@
 			children = (
 				BC8089DC19FB8EDE005C4479 /* Video.swift */,
 				BCE7F52119FBC5E200C2FB8F /* Object-C-Header.h */,
+				BCB3BA3519FCE7AA00157BD7 /* Screenshot.swift */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -120,6 +129,8 @@
 				BC8089D919FB8A30005C4479 /* VideoNaviController.xib */,
 				BC8089E619FB998C005C4479 /* BroadcastController.swift */,
 				BC8089E719FB998C005C4479 /* BroadcastController.xib */,
+				BCB3BA3119FCDC0500157BD7 /* ScreenshotController.swift */,
+				BCB3BA3219FCDC0500157BD7 /* ScreenshotController.xib */,
 			);
 			name = videos;
 			sourceTree = "<group>";
@@ -147,6 +158,7 @@
 		BCACC96119FB358F004E98D1 /* VideoHouse */ = {
 			isa = PBXGroup;
 			children = (
+				BCB3BA2E19FCB4EC00157BD7 /* plugins */,
 				BC8089D119FB8136005C4479 /* views */,
 				BC8089CF19FB8122005C4479 /* models */,
 				BCACC98819FB466C004E98D1 /* controllers */,
@@ -189,6 +201,14 @@
 				BCACC98919FB46E1004E98D1 /* MainController.swift */,
 			);
 			name = controllers;
+			sourceTree = "<group>";
+		};
+		BCB3BA2E19FCB4EC00157BD7 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				BCB3BA2F19FCB59300157BD7 /* UIView+Screenshot.swift */,
+			);
+			name = plugins;
 			sourceTree = "<group>";
 		};
 		F2548E9A472FCCC3F5984D18 /* Frameworks */ = {
@@ -285,6 +305,7 @@
 				BC8089D619FB818C005C4479 /* VideoCell.xib in Resources */,
 				BC8089DB19FB8A30005C4479 /* VideoNaviController.xib in Resources */,
 				BC8089E919FB998C005C4479 /* BroadcastController.xib in Resources */,
+				BCB3BA3419FCDC0500157BD7 /* ScreenshotController.xib in Resources */,
 				BCACC96C19FB358F004E98D1 /* Images.xcassets in Resources */,
 				BC8089CE19FB811B005C4479 /* VideosController.xib in Resources */,
 			);
@@ -341,9 +362,12 @@
 				BC8089DD19FB8EDE005C4479 /* Video.swift in Sources */,
 				BC8089D519FB818C005C4479 /* VideoCell.swift in Sources */,
 				BCACC96519FB358F004E98D1 /* AppDelegate.swift in Sources */,
+				BCB3BA3019FCB59300157BD7 /* UIView+Screenshot.swift in Sources */,
 				BC8089CD19FB811B005C4479 /* VideosController.swift in Sources */,
 				BC8089E819FB998C005C4479 /* BroadcastController.swift in Sources */,
+				BCB3BA3319FCDC0500157BD7 /* ScreenshotController.swift in Sources */,
 				BC8089DA19FB8A30005C4479 /* VideoNaviController.swift in Sources */,
+				BCB3BA3619FCE7AA00157BD7 /* Screenshot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,9 +475,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VideoHouse/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c124f6ac-299a-4840-a1da-61a2830a7cd8";
 				SWIFT_OBJC_BRIDGING_HEADER = "VideoHouse/Object-C-Header.H";
 			};
 			name = Debug;
@@ -466,9 +491,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VideoHouse/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c124f6ac-299a-4840-a1da-61a2830a7cd8";
 				SWIFT_OBJC_BRIDGING_HEADER = "VideoHouse/Object-C-Header.H";
 			};
 			name = Release;
