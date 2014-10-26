@@ -26,9 +26,19 @@
                                 <action selector="dissMissView:" destination="-1" id="2Jg-WX-mA6"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem title="截图" width="131" id="noO-5Q-PtI">
+                        <barButtonItem title="截图" width="102" id="noO-5Q-PtI">
                             <connections>
                                 <action selector="imageCapture:" destination="-1" id="eDB-YX-V0F"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="开始录制" id="F3a-Qc-jXN">
+                            <connections>
+                                <action selector="startCapture:" destination="-1" id="AqZ-1h-reF"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="结束录制" width="61" id="FAf-wh-nOD">
+                            <connections>
+                                <action selector="stopCapture:" destination="-1" id="PxL-ld-yir"/>
                             </connections>
                         </barButtonItem>
                     </items>

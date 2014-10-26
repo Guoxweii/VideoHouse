@@ -11,11 +11,24 @@ import UIKit
 class BroadcastController: UIViewController,ALMoviePlayerControllerDelegate {
     var videoInstance: Video?
     var player: ALMoviePlayerController?
+    var glimpse: Glimpse?
 
     @IBOutlet var test: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         initializePlayer()
+        glimpse = Glimpse()
+    }
+    
+    @IBAction func startCapture(sender: UIBarButtonItem) {
+        glimpse!.startRecordingView(view, onCompletion: { (fileOuputURL: NSURL?) -> Void in
+            println("123")
+            println("\(fileOuputURL?.absoluteString)")
+        })
+    }
+    
+    @IBAction func stopCapture(sender: AnyObject) {
+        glimpse?.stop()
     }
     
     func initializePlayer() {

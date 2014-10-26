@@ -15,7 +15,7 @@ class SnapeshotsListController: UITableViewController {
         super.viewDidLoad()
         title = "图片列表"
         
-        snapeList = Snapshot.allRecords() as? Array<Snapshot>
+        getData()
         
         let snapeshotCell = "SnapeshotCell"
         tableView.registerNib(UINib(nibName: snapeshotCell, bundle: nil), forCellReuseIdentifier:snapeshotCell)
@@ -38,7 +38,6 @@ class SnapeshotsListController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier(snapeshotCell, forIndexPath: indexPath) as SnapeshotCell
         
         var snapeshot = snapeList![indexPath.row]
-        println("\(snapeshot)")
         cell.snapeshotImage.image = UIImage(contentsOfFile: snapeshot.path)
         cell.createAtLabel.text = "\(snapeshot.createdAt)"
         
@@ -46,6 +45,10 @@ class SnapeshotsListController: UITableViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
+        getData()
+    }
+    
+    func getData() {
         snapeList = Snapshot.allRecords() as? Array<Snapshot>
     }
 

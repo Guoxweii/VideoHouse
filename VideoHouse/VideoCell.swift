@@ -27,6 +27,8 @@ class VideoCell: UITableViewCell {
         broadcastCtr.videoInstance = videoInstance?
         delegate?.presentViewController(broadcastCtr, animated: true, completion: nil)
         broadcastCtr.play()
+//        var testCtr = TestViewController(nibName: "TestViewController", bundle: nil)
+//        delegate?.navigationController?.pushViewController(testCtr, animated: true)
     }
     
     func setProperties() {
