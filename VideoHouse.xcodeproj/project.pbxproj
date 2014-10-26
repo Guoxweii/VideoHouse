@@ -25,6 +25,13 @@
 		BCB3BA3319FCDC0500157BD7 /* ScreenshotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BA3119FCDC0500157BD7 /* ScreenshotController.swift */; };
 		BCB3BA3419FCDC0500157BD7 /* ScreenshotController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB3BA3219FCDC0500157BD7 /* ScreenshotController.xib */; };
 		BCB3BA3619FCE7AA00157BD7 /* Screenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BA3519FCE7AA00157BD7 /* Screenshot.swift */; };
+		BCB3BA3A19FD075700157BD7 /* Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BA3919FD075700157BD7 /* Snapshot.m */; };
+		BCB3BA3E19FD0C5200157BD7 /* SnapeshotNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BA3C19FD0C5200157BD7 /* SnapeshotNaviController.swift */; };
+		BCB3BA3F19FD0C5200157BD7 /* SnapeshotNaviController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB3BA3D19FD0C5200157BD7 /* SnapeshotNaviController.xib */; };
+		BCB3BA4219FD0E7D00157BD7 /* SnapeshotsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BA4019FD0E7D00157BD7 /* SnapeshotsListController.swift */; };
+		BCB3BA4319FD0E7D00157BD7 /* SnapeshotsListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB3BA4119FD0E7D00157BD7 /* SnapeshotsListController.xib */; };
+		BCB3BA4619FD110A00157BD7 /* SnapeshotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3BA4419FD110A00157BD7 /* SnapeshotCell.swift */; };
+		BCB3BA4719FD110A00157BD7 /* SnapeshotCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB3BA4519FD110A00157BD7 /* SnapeshotCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +69,14 @@
 		BCB3BA3119FCDC0500157BD7 /* ScreenshotController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenshotController.swift; sourceTree = "<group>"; };
 		BCB3BA3219FCDC0500157BD7 /* ScreenshotController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScreenshotController.xib; sourceTree = "<group>"; };
 		BCB3BA3519FCE7AA00157BD7 /* Screenshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screenshot.swift; sourceTree = "<group>"; };
+		BCB3BA3819FD075700157BD7 /* Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snapshot.h; sourceTree = "<group>"; };
+		BCB3BA3919FD075700157BD7 /* Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Snapshot.m; sourceTree = "<group>"; };
+		BCB3BA3C19FD0C5200157BD7 /* SnapeshotNaviController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapeshotNaviController.swift; sourceTree = "<group>"; };
+		BCB3BA3D19FD0C5200157BD7 /* SnapeshotNaviController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapeshotNaviController.xib; sourceTree = "<group>"; };
+		BCB3BA4019FD0E7D00157BD7 /* SnapeshotsListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapeshotsListController.swift; sourceTree = "<group>"; };
+		BCB3BA4119FD0E7D00157BD7 /* SnapeshotsListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapeshotsListController.xib; sourceTree = "<group>"; };
+		BCB3BA4419FD110A00157BD7 /* SnapeshotCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapeshotCell.swift; sourceTree = "<group>"; };
+		BCB3BA4519FD110A00157BD7 /* SnapeshotCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnapeshotCell.xib; sourceTree = "<group>"; };
 		BCE7F52119FBC5E200C2FB8F /* Object-C-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Object-C-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +111,7 @@
 		BC8089CF19FB8122005C4479 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				BCB3BA3719FD06E500157BD7 /* activeRecords */,
 				BC8089DC19FB8EDE005C4479 /* Video.swift */,
 				BCE7F52119FBC5E200C2FB8F /* Object-C-Header.h */,
 				BCB3BA3519FCE7AA00157BD7 /* Screenshot.swift */,
@@ -116,6 +132,8 @@
 			children = (
 				BC8089D319FB818C005C4479 /* VideoCell.swift */,
 				BC8089D419FB818C005C4479 /* VideoCell.xib */,
+				BCB3BA4419FD110A00157BD7 /* SnapeshotCell.swift */,
+				BCB3BA4519FD110A00157BD7 /* SnapeshotCell.xib */,
 			);
 			name = cells;
 			sourceTree = "<group>";
@@ -197,6 +215,7 @@
 		BCACC98819FB466C004E98D1 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BCB3BA3B19FD0C0100157BD7 /* snapeshots */,
 				BC8089D719FB89DE005C4479 /* videos */,
 				BCACC98919FB46E1004E98D1 /* MainController.swift */,
 			);
@@ -209,6 +228,26 @@
 				BCB3BA2F19FCB59300157BD7 /* UIView+Screenshot.swift */,
 			);
 			name = plugins;
+			sourceTree = "<group>";
+		};
+		BCB3BA3719FD06E500157BD7 /* activeRecords */ = {
+			isa = PBXGroup;
+			children = (
+				BCB3BA3819FD075700157BD7 /* Snapshot.h */,
+				BCB3BA3919FD075700157BD7 /* Snapshot.m */,
+			);
+			name = activeRecords;
+			sourceTree = "<group>";
+		};
+		BCB3BA3B19FD0C0100157BD7 /* snapeshots */ = {
+			isa = PBXGroup;
+			children = (
+				BCB3BA3C19FD0C5200157BD7 /* SnapeshotNaviController.swift */,
+				BCB3BA3D19FD0C5200157BD7 /* SnapeshotNaviController.xib */,
+				BCB3BA4019FD0E7D00157BD7 /* SnapeshotsListController.swift */,
+				BCB3BA4119FD0E7D00157BD7 /* SnapeshotsListController.xib */,
+			);
+			name = snapeshots;
 			sourceTree = "<group>";
 		};
 		F2548E9A472FCCC3F5984D18 /* Frameworks */ = {
@@ -304,10 +343,13 @@
 			files = (
 				BC8089D619FB818C005C4479 /* VideoCell.xib in Resources */,
 				BC8089DB19FB8A30005C4479 /* VideoNaviController.xib in Resources */,
+				BCB3BA4719FD110A00157BD7 /* SnapeshotCell.xib in Resources */,
 				BC8089E919FB998C005C4479 /* BroadcastController.xib in Resources */,
 				BCB3BA3419FCDC0500157BD7 /* ScreenshotController.xib in Resources */,
 				BCACC96C19FB358F004E98D1 /* Images.xcassets in Resources */,
+				BCB3BA4319FD0E7D00157BD7 /* SnapeshotsListController.xib in Resources */,
 				BC8089CE19FB811B005C4479 /* VideosController.xib in Resources */,
+				BCB3BA3F19FD0C5200157BD7 /* SnapeshotNaviController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +403,7 @@
 				BCACC98B19FB46E1004E98D1 /* MainController.swift in Sources */,
 				BC8089DD19FB8EDE005C4479 /* Video.swift in Sources */,
 				BC8089D519FB818C005C4479 /* VideoCell.swift in Sources */,
+				BCB3BA3A19FD075700157BD7 /* Snapshot.m in Sources */,
 				BCACC96519FB358F004E98D1 /* AppDelegate.swift in Sources */,
 				BCB3BA3019FCB59300157BD7 /* UIView+Screenshot.swift in Sources */,
 				BC8089CD19FB811B005C4479 /* VideosController.swift in Sources */,
@@ -368,6 +411,9 @@
 				BCB3BA3319FCDC0500157BD7 /* ScreenshotController.swift in Sources */,
 				BC8089DA19FB8A30005C4479 /* VideoNaviController.swift in Sources */,
 				BCB3BA3619FCE7AA00157BD7 /* Screenshot.swift in Sources */,
+				BCB3BA3E19FD0C5200157BD7 /* SnapeshotNaviController.swift in Sources */,
+				BCB3BA4219FD0E7D00157BD7 /* SnapeshotsListController.swift in Sources */,
+				BCB3BA4619FD110A00157BD7 /* SnapeshotCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

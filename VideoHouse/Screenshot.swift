@@ -26,8 +26,17 @@ class Screenshot: NSObject {
         screenshot.name = screenshot.generateImageName()
         screenshot.path = DirectoryPath + "/" + screenshot.prefix! + "/" + screenshot.name!
         screenshot.initializeAndSaveImage(image)
+        screenshot.save()
         
         return screenshot
+    }
+    
+    func save() {
+        var snapshot = Snapshot.newRecord()
+        snapshot.name = name
+        snapshot.prefix = prefix
+        snapshot.path = path
+        snapshot.save()
     }
     
     func generatePrefix() -> String {

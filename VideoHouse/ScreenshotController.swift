@@ -18,7 +18,8 @@ class ScreenshotController: UIViewController {
     }
 
     @IBAction func saveToLocal(sender: AnyObject) {
-        var screenshotInstance = Screenshot.store(screenshotImage.image!)
+        Screenshot.store(screenshotImage.image!)
+        dismissViewControllerAnimated(false, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {

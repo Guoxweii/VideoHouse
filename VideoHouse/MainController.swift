@@ -17,7 +17,11 @@ class MainController: UITabBarController {
         videoNaviCtr.tabBarItem.title = "视频列表"
         videoNaviCtr.tabBarItem.image = UIImage(named: "Film.png")
         
-        self.viewControllers = [ videoNaviCtr ];
+        var snapeshotNaviCtr = SnapeshotNaviController(nibName: "SnapeshotNaviController", bundle: nil)
+        snapeshotNaviCtr.tabBarItem.title = "截屏列表"
+        snapeshotNaviCtr.tabBarItem.image = UIImage(named: "Snapeshot.png")
+        
+        self.viewControllers = [ videoNaviCtr, snapeshotNaviCtr ];
     }
 
     override func didReceiveMemoryWarning() {

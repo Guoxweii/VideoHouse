@@ -14,7 +14,7 @@ class VideoNaviController: UINavigationController {
         super.viewDidLoad()
         
         var naviCtr = VideosController(nibName: "VideosController", bundle: nil)
-        self.pushViewController(naviCtr, animated: false)
+        pushViewController(naviCtr, animated: false)
     }
 
     override func didReceiveMemoryWarning() {
